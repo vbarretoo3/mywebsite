@@ -28,7 +28,7 @@ export default function Contact() {
     <>
       <h3>Contact</h3>
       <br/>
-      <form data={data} onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         {error && <Alert variant='danger'>{error}</Alert>}
         {reply && <Alert variant='success'>{reply}</Alert>}
         <ul class="form-style-1" id='form'>
